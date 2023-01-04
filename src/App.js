@@ -16,7 +16,14 @@ function Div() {
   return (
     <>
       <div className="divStyle">
-        <button id="button">DETAILS</button>
+        <button
+          id="button"
+          onClick={function () {
+            window.style.display = "block";
+          }}
+        >
+          DETAILS
+        </button>
       </div>
     </>
   );
